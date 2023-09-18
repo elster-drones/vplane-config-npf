@@ -13,10 +13,10 @@ Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}, libreadonly-perl, libsnmp-perl,
  vplane-config, libvyatta-file-perl, libvyatta-dscp-perl, libvyatta-rate-perl,
  libvyatta-typechecker-perl, libvyatta-interface-perl, libvyatta-config-perl,
- libmodule-load-conditional-perl, vyatta-dataplane-cfg-qos-14,
- vyatta-dataplane-cfg-npf-cfg-2, vyatta-dataplane-op-npf-op-1,
+ libmodule-load-conditional-perl, 
  python3-vyatta-interfaces (>= 1.52),
  python3:any, python3-vyatta-cfgclient
+Recommends: vyatta-dataplane-cfg-qos-14, vyatta-dataplane-cfg-npf-cfg-2, vyatta-dataplane-op-npf-op-1
 Conflicts: vyatta-cfg-firewall, vyatta-op-firewall, vyatta-nat
 Description: vyatta common firewall scripts
  Vyatta common scripts and libraries for firewall services
