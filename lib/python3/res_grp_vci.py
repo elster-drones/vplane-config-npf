@@ -98,7 +98,7 @@ def get_config():
     """
     LOG.debug("res-grp-vci:get-config")
     config = get_saved_config()
-    print(f"{config}")
+    print(json.dumps(config))
     return 0
 
 
